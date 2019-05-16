@@ -1,9 +1,9 @@
 =============================
 DRF File management
 =============================
-
-.. image:: https://badge.fury.io/py/drf-file-management.svg
-    :target: https://badge.fury.io/py/drf-file-management
+.. image:: https://readthedocs.org/projects/drf-file-management/badge/?version=latest
+    :target: https://drf-file-management.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 .. image:: https://travis-ci.org/fjlendinez/drf-file-management.svg?branch=master
     :target: https://travis-ci.org/fjlendinez/drf-file-management
@@ -23,7 +23,7 @@ Quickstart
 
 Install DRF File management::
 
-    pip install drf-file-management
+    pip install git+https://github.com/FJLendinez/drf-file-management.git
 
 Add it to your `INSTALLED_APPS`:
 
@@ -31,7 +31,7 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'drf_file_management.apps.DrfFileManagementConfig',
+        'drf_file_management',
         ...
     )
 
